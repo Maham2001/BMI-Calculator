@@ -1,0 +1,13 @@
+alert("Hey! Lets start the calculation");
+var a = prompt("Enter height");
+console.log(a, "inches");
+var b = prompt("Enter weight");
+console.log(b, "pounds");
+var c = a * 2.54;
+var d = c / 100;
+//var u = d ^ 2;
+console.log("Height you entered is", d, "m");
+var e = b / 2.205;
+console.log("Weight you entered is", e, "kg");
+var f = e / (d * d);
+console.log("The BMI of your body is", f, "kg/m2");
